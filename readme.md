@@ -49,3 +49,24 @@ $ vi readme.md
 
 
 ///////////////////////////////////////////////////////////////
+
+$ git status // retorna como que está a condição do arquivo, se tem arquivos que sofreram alteração, arquivos prontos para dá commit e etc
+
+$ git add (nome do arquivo) // passa o arquivo para um estagio pronto para o commit
+
+$ git commit (nome do arquivo) // Dá commit no arquivo em questão
+
+$ git log // retorna um historico das modificações ocorridas no diretorio
+
+$ git log --author="nome do autor" // retorna um historico das modificações ocorridas no diretorio feita pelo autor entre aspas
+
+$ git shortlog // retorna dados resumidos em ordem alfabetica sobre os user e sobre os commits realizados
+
+$ git log --graph // retorna um grafico dos branchs e versoes do projeto
+
+pelo hash indicado pelo log é possivel saber muitas informações sobre aquele determinado hash pelo comando
+
+$ git show <hash>
+
+ex:
+$ git show baeb41e8bad295a41c4cf3668b102cdd9c896908
