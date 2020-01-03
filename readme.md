@@ -70,3 +70,6 @@ $ git show <hash>
 
 ex:
 $ git show baeb41e8bad295a41c4cf3668b102cdd9c896908
+
+Fim da primeira vez que eu faço o curso.
+
