@@ -73,3 +73,15 @@ $ git show baeb41e8bad295a41c4cf3668b102cdd9c896908
 
 Fim da primeira vez que eu faço o curso.
 
+$ git diff // Retorna as modificações feitas. É usada antes do arquivo está pronto para comitar, verificando erros no meio do caminho.
+
+$git checkout <nome do arquivo> //  Retira todas as mudanças feitas nos arquivos antes de prepara-los para o commit
+
+$git reset HEAD <nome do arquivo> // Retira ele da fila de adicionados prontos para ir ao commit
+
+$git reset --soft <hash do commit anterior> // Retira o commit posterior ao commit com aquela hash e retorna ele já pronto para o commit
+ $git reset --mixed <hash do commit anterior> // Retira o commit posterior ao commit com aquela hash e retorna ele sem está pronto para o commit
+ $git reset --hard <hash do commit anterior> // Retira o commit posterior ao commit com aquela hash e deleta toda a alteração do arquivo
+
+$git commit -am "mensagem nome do arquivo" // Commita o arquivo sem precisar adicionar separado o comando -am faz os dois junto
+
