@@ -85,3 +85,9 @@ $git reset --soft <hash do commit anterior> // Retira o commit posterior ao comm
 
 $git commit -am "mensagem nome do arquivo" // Commita o arquivo sem precisar adicionar separado o comando -am faz os dois junto
 
+$git push origin master // Envia os arquivos do seu repositorio local para o seu remoto linkado pelo git init/
+
+$git clone usuario@servidor:/caminho/para/o/repositorio // Clona os arquivos do repositorio remoto para o repositorio local
+
+
+
