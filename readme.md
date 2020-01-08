@@ -89,5 +89,5 @@ $git push origin master // Envia os arquivos do seu repositorio local para o seu
 
 $git clone usuario@servidor:/caminho/para/o/repositorio // Clona os arquivos do repositorio remoto para o repositorio local
 
-
+alo alo
 
